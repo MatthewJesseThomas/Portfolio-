@@ -44,9 +44,56 @@ input, textarea {
     color: #222;
     /* clear: both; */
   }
+.offsite {
+    background-color:#fbfbfb;
+    border-style: groove;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 5px;
+    /* margin-left: 650px; */
+}
   /* Footer */
 footer {
     height: 5rem;
     min-width: 90vw;
+}
+/* KeyFrames */
+@keyframes fill-animation1 {
+    from{left:1%;}
+    to{width: 90%;}
+}
+@keyframes fill-animation2 {
+    from{left:1%;}
+    to{width: 80%;}
+}
+@keyframes fill-animation3 {
+    from{left:1%;}
+    to{width: 85%;}
+}
+.skillbar {
+    background-color: black;
+    height: 25px;
+    border-radius: 10px;
+}
+.HTML5 {
+    color: rgb(255, 255, 255);
+    background-color: darkblue;
+    border-radius: 10px;
+    animation: fill-animation1 5s forwards infinite;
+    width: 10%;
+}
+.CSS {
+    color: rgb(255, 255, 255);
+    background-color: lightgreen;
+    border-radius: 10px;
+    animation: fill-animation2 5s forwards infinite;
+    width: 10%;
+}
+.Bootstrap {
+    color: rgb(255, 255, 255);
+    background-color: darkorchid;
+    border-radius: 10px;
+    animation: fill-animation3 5s forwards infinite;
+    width: 10%;
 }
 
