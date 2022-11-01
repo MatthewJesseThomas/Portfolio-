@@ -16,7 +16,8 @@
     box-sizing: border-box;
 }
 body, section {
-    background-image: url('../assets/gif/shooting.gif')
+    background-image: url('../assets/gif/shooting.gif');
+    overflow-x: hidden;
 }
 /* Header Styles */
 .logo {
@@ -27,7 +28,7 @@ body, section {
 }
 .logo:hover {
     scale: 1.1;
-    animation: 2.5s linear spining infinite;
+    animation: 2.15s linear spining infinite;
 }
 .navbar {
     position: fixed;
@@ -35,6 +36,10 @@ body, section {
     width: 100%;
     box-shadow: 0 0 8px black;
     z-index: 20;
+}
+/* navbar show */
+.navbar .show {
+    background-color: rgb(4,20,40);
 }
 .nav-link:hover {
     color: darkcyan !important;
