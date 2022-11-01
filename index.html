@@ -1,87 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link class="head-icon" rel="shortcut icon" href="https://i.postimg.cc/SKJzsQ9Q/retro-sword-badges-shields-logo-260nw-450358219.jpg" type="image/x-icon">
-<!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link class="head-icon" rel="shortcut icon"
+        href="https://i.postimg.cc/SKJzsQ9Q/retro-sword-badges-shields-logo-260nw-450358219.jpg" type="image/x-icon">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS End -->
     <link rel="stylesheet" href="./styles/style.css">
     <title>MatthewJesseThomas</title>
 </head>
+
 <body class="bg-secondary">
 
-<header>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark rounded-3">
-        <div class="container-fluid">
-            <a href="index.html">
-                <img class="logo" src="https://i.postimg.cc/JnpQqnfb/retro-sword-badges-shields-logo-260nw-450358219.webp" alt="Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 rounded-3">
-                <li class="nav-item">
-                <i class="fa-solid fa-house-user"></i>
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                <i class="fa-solid fa-file"></i>
-                <a class="nav-link active" aria-current="page" href="./Pages/resume.html">Resume</a>
-                </li>
-                <li class="nav-item">
-                <i class="fa-solid fa-folder"></i>
-                <a class="nav-link active" aria-current="page" href="./Pages/project.html">Project</a>
-                </li>
-                <li class="nav-item">
-                <i class="fa-solid fa-screwdriver-wrench"></i>
-                <a class="nav-link active" aria-current="page" href="./Pages/skills.html">Skills</a>
-                </li>
-                <li class="nav-item">
-                <i class="fa-solid fa-scroll"></i>
-                <a class="nav-link active" aria-current="page" href="./Pages/testimonial.html">Testimonials</a>
-                </li>
-                <li class="nav-item">
-                <i class="fa-solid fa-address-card"></i>
-                <a class="nav-link active" aria-current="page" href="./Pages/contact.html">Contact</a>
-                </li>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark rounded-3">
+            <div class="container-fluid">
+                <a href="index.html">
+                    <img class="logo"
+                        src="https://i.postimg.cc/JnpQqnfb/retro-sword-badges-shields-logo-260nw-450358219.webp"
+                        alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 rounded-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">
+                                <i class="fa-solid fa-house-user me-3"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Pages/resume.html">
+                                <i class="fa-solid fa-file"></i>
+                                Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Pages/project.html">
+                                <i class="fa-solid fa-folder"></i>
+                                Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Pages/skills.html">
+                                <i class="fa-solid fa-screwdriver-wrench"></i>
+                                Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Pages/testimonial.html">
+                                <i class="fa-solid fa-scroll"></i>
+                                Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Pages/contact.html">
+                                <i class="fa-solid fa-address-card"></i>
+                                Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
     <main>
-<!--Home-->
-    <section class="container-fluid bg-secondary">
-        <div class="wrapper text-center">
-            <div class="rounded-3 barney">
-                <h2 class="text-white kage">Home</h2>
-                <h3 class="text-white kage"><strong>Matthew Jesse Thomas</strong></h3>
+        <!--Home-->
+        <section class="container-fluid bg-secondary">
+            <div class="wrapper text-center">
+                <div class="rounded-3" data-aos="fade-down">
+                    <h2 class="text-white kage">Home</h2>
+                    <h3 class="text-white kage"><strong>Matthew Jesse Thomas</strong></h3>
+                </div>
+                <figure>
+                    <div class="img-fluids flex-column flex-sm-row my-auto">
+                        <img class="img-fluid my-3" data-aos="fade-right"
+                            src="https://i.postimg.cc/kgV4rSkH/A-Simplified-Guide-to-Mens-Formal-Dress-Codes-2.jpg"
+                            alt="Matthew profile">
+                        <img class="img-fluid my-3" data-aos="fade-left"
+                            src="https://i.postimg.cc/Dzp37pLd/Untitled-design-32.webp" alt="Matthew profile">
+                    </div>
+                    <figcaption>
+                        <p><strong>Aspiring Developer | Aspiring Web Designer | Aspiring Coder</strong></p>
+                    </figcaption>
+                </figure>
             </div>
-        <figure>
-            <div >
-                <img class="img-fluid" src="https://i.postimg.cc/kgV4rSkH/A-Simplified-Guide-to-Mens-Formal-Dress-Codes-2.jpg" alt="Matthew profile">
-                <img class="img-fluid" src="https://i.postimg.cc/Dzp37pLd/Untitled-design-32.webp" alt="Matthew profile">
-            </div>
-            <figcaption>
-                <p><strong>Aspiring Developer | Aspiring Web Designer | Aspiring Coder</strong></p>
-            </figcaption>
-        </figure>
-    </div>
-</section>
-<!-- <section class="align-content-center">
+        </section>
+        <!-- <section class="align-content-center">
     <h1 class=" ">About Section</h1>
 </section> -->
     </main>
     <footer class="bg-dark text-white rounded-3">
         <p>Copyright &copy; 2022</p>
-        <p class="text-center text-decoration-underline kage">*South Africa | Cape Town | 22 Wandel Crescent | Woodridge,Woodlands | Mitchell's Plain | 7785 *</p>
+        <p class="text-center text-decoration-underline kage">*South Africa | Cape Town | 22 Wandel Crescent |
+            Woodridge,Woodlands | Mitchell's Plain | 7785 *</p>
     </footer>
-<!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/25e6b32152.js" crossorigin="anonymous"></script>
+    <!-- AnimateOnScroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>

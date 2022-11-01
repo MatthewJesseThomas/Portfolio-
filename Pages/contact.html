@@ -7,13 +7,16 @@
     <link class="head-icon" rel="shortcut icon" href="https://i.postimg.cc/SKJzsQ9Q/retro-sword-badges-shields-logo-260nw-450358219.jpg" type="image/x-icon">
 <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- AOS End -->
     <link rel="stylesheet" href="../styles/style.css">
     <title>MatthewJesseThomas</title>
 </head>
 <body class="bg-secondary">
 
     <!-- <header> -->
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark rounded-3">
+        <nav class="navbar navbar-expand-lg  navbar-dark rounded-3">
             <div class="container-fluid">
                 <a href="../index.html">
                     <img class="logo" src="https://i.postimg.cc/JnpQqnfb/retro-sword-badges-shields-logo-260nw-450358219.webp" alt="Logo">
@@ -55,24 +58,24 @@
     <main>
 <!--Contact-->
         <section class="container-fluid text-center bg-secondary">
-            <h2 class="display-4 text-light mt-0 rounded-3 barney kage">Contact</h2>
+            <h2 class="display-4 text-light mt-0 rounded-3 barney kage"data-aos="fade-up">Contact</h2>
         <div class="container">
             <form action="https://formspree.io/f/mwkzbykn" method="POST">
                 <div>
                     <label for="#firstname">Name</label>
-                    <input id="firstname" name="firstName" type="text" placeholder="Enter your name" required type="reset">
+                    <input id="firstname" name="firstName" type="text" placeholder="Enter your name" required type="reset" class="w-100">
                 </div>
                 <div>
                     <label for="#firstname">Surname</label>
-                    <input id="surname" name="surname" type="text" placeholder="Enter your surname" required type="reset">
+                    <input id="surname" name="surname" type="text" placeholder="Enter your surname" required type="reset" class="w-100">
                 </div>
                 <div>
                     <label for="#email">Email</label>
-                    <input id="Email" name="Email" type="text" placeholder="Enter your Email" required type="reset">
+                    <input id="Email" name="Email" type="text" placeholder="Enter your Email" required type="reset" class="w-100">
                 </div>
                 <div>
                     <label for="#Response">Message</label>
-                    <textarea name="message" cols="30" rows="10" placeholder="Enter your Message" required type="reset" ></textarea>
+                    <textarea name="message" cols="30" rows="10" placeholder="Enter your Message" required type="reset"  class="w-100"></textarea>
                 </div> <br>
                 <div>
                   <select class="form-select" aria-label="Default select example">
@@ -103,5 +106,10 @@
     </footer>
 <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<!-- AnimateOnScroll -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
 </body>
 </html>

@@ -14,7 +14,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-image: url(../assets/gif/shooting.gif); */
+}
+body, section {
+    background-image: url('../assets/gif/shooting.gif')
 }
 /* Header Styles */
 .logo {
@@ -32,6 +34,7 @@
     top: 0;
     width: 100%;
     box-shadow: 0 0 8px black;
+    z-index: 20;
 }
 .nav-link:hover {
     color: darkcyan !important;
@@ -41,6 +44,14 @@
 main {
     margin-top: 150px;
 }
+.img-fluids {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .kisama {
+    background-image: url('../assets/gif/shooting.gif') !important;
+    background-size: cover;
+} */
 .bible {
     border:4px solid black ;
 }
@@ -57,10 +68,10 @@ main {
     text-shadow: 1px 1px 3px rgb(61, 109, 171);
 }
 /* Main-Background-Bar  */
-.barney {
+/* .barney {
     /* background: linear-gradient(90deg, rgba(129,158,148,1) 100%, rgba(0,212,255,1) 100%, rgba(23,22,52,1) 100%, rgba(27,80,77,1) 100%); */
     background-color: #2F2E3D;
-}
+} */
 /* Contact Section */
 input, textarea {
     width: 100%;
