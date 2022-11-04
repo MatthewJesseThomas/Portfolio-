@@ -105,6 +105,7 @@ footer {
 .netlify-link:hover {
     scale: 1.1;
 }
+/* End-Of-Welcome-Page-style */
 /* KeyFrames */
 @keyframes fill-animation1 {
     from{left:1%;}
@@ -220,7 +221,7 @@ footer {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textclip 2s reverse infinite;
-    display: inline-block;
+    display: block;
     /* font-size: 190px; */
   }
   
