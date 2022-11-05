@@ -158,7 +158,7 @@ footer {
     width: 10%;
 }
 /* KeyFrames End */
-/* Animation */
+/* Animation-KeyFrame */
 @keyframes spining {
     0% {
       transform: rotate(0deg);
@@ -170,7 +170,7 @@ footer {
       transform: rotate(360deg);
     }
   }
-  /* Animation (End) */
+  /* Animation-KeyFrame (End) */
   /* Animate-Character */
   .animate-charcter
   {
