@@ -67,6 +67,11 @@ main {
     /* background: linear-gradient(90deg, rgba(129,158,148,1) 100%, rgba(0,212,255,1) 100%, rgba(23,22,52,1) 100%, rgba(27,80,77,1) 100%); */
     background-color: #2F2E3D;
 }
+/* Image-Sizing */
+.resize {
+    width: 33.5rem;
+}
+/* End-Image-sizing */
 /* Contact Section */
 input, textarea {
     width: 100%;
